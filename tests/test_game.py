@@ -43,7 +43,6 @@ def test_winner(statement, game, index, player):
 
 import pytest
 from src.tictactoe import TicTacToe, play
-from src.player import HumanPlayer, RandomComputerPlayer, SmartComputerPlayer
 
 obj_empty = TicTacToe()
 
